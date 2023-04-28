@@ -8,16 +8,16 @@ const navLinks = [
     url: "/",
   },
   {
-    display: "Submit Questions",
-    url: "/submit-questions",
+    display: "Drugs",
+    url: "/drugs",
   },
   {
-    display: "Pages",
-    url: "#",
+    display: "Forum",
+    url: "/forum",
   },
   {
     display: "Blog",
-    url: "#",
+    url: "/review",
   },
 ];
 
@@ -32,7 +32,7 @@ const Header = () => {
         <div className="navigation d-flex align-items-center justify-content-between">
           <div className="logo">
             <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
+              <i class="ri-pantone-line"></i> MyEcstasy
             </h2>
           </div>
 

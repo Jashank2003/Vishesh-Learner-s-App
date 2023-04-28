@@ -1,15 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import courseImg1 from "../../assests/images/web-design.png";
-import courseImg2 from "../../assests/images/graphics-design.png";
-import courseImg3 from "../../assests/images/ui-ux.png";
+import courseImg1 from "../../assests/images/istockphoto-684852806-612x612.jpg";
+import courseImg2 from "../../assests/images/160428183940-fentanyl-opioids-drugs-overdose-sanjay-gupta-mobile-orig-mss-00000000.jpg";
+import courseImg3 from "../../assests/images/TRVPB-Cocaine-Banner.jpeg";
 import "./courses.css";
 import CourseCard from "./CourseCard";
 
 const coursesData = [
   {
     id: "01",
-    title: "Web Design BootCamp-2022 for Beginners",
+    title: "3,4-Methyl​enedioxy​methamphetamine",
     lesson: 12,
     students: 12.5,
     rating: 5.9,
@@ -18,7 +18,7 @@ const coursesData = [
 
   {
     id: "02",
-    title: "Professional Graphics Design, PhotoShop, Adobe XD, Figma",
+    title: " Fentanyl",
     lesson: 12,
     students: 12.5,
     rating: 5.9,
@@ -27,7 +27,7 @@ const coursesData = [
 
   {
     id: "03",
-    title: "UI/UX BootCamp for Beginners in 2022",
+    title: "Cocaine",
     lesson: 12,
     students: 12.5,
     rating: 5.9,
@@ -43,11 +43,9 @@ const Courses = () => {
           <Col lg="12" className="mb-5">
             <div className="course__top d-flex justify-content-between align-items-center">
               <div className="course__top__left w-50">
-                <h2>Our Popular Courses</h2>
+                <h2>In Demand Drugs</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                  consequatur libero quod voluptatibus ullam quia quas, vitae
-                  voluptatem recusandae reprehenderit!
+                In Demand Drugs are the products that are dominating the market due to the marketing strategies of pharmaceutical companies. These medications are prescribed by healthcare professionals who are often influenced by the drug manufacturers' incentives and promotions. While some of these drugs may be effective in treating common conditions, many others are overhyped and unnecessary. The pharmaceutical industry is driven by profits, and the high demand for these drugs allows them to charge exorbitant prices, making healthcare unaffordable for many. The healthcare system needs to address this issue by promoting evidence-based medicine and ensuring that drug prices are reasonable and transparent.
                 </p>
               </div>
 

@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import { Container, Row, Col } from "reactstrap";
-import aboutImg from "../../assests/images/about-us.png";
+import aboutImg from "../../assests/images/powder-coke-drugs-cocaine.jpg";
 import CountUp from "react-countup";
 import "./about.css";
 
@@ -20,9 +20,11 @@ const AboutUs = () => {
             <div className="about__content">
               <h2>About Us</h2>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Excepturi cupiditate animi deserunt libero nesciunt corporis
-                explicabo nobis ex quo molestiae!
+              Welcome to myEcstasy, your one-stop shop for legalized drugs. We understand that the world is changing and that people are looking for alternative ways to experience life. That's why we provide a wide variety of drugs that are perfectly legal to purchase and consume. Whether you're looking for a boost of energy, a way to relax, or a mind-altering experience, myEcstasy has everything you need.
+
+              At myEcstasy, we pride ourselves on providing the highest quality drugs at the most affordable prices. We understand that our customers are looking for an experience that is both safe and enjoyable, which is why we work tirelessly to ensure that all of our products are rigorously tested and of the highest quality. Our team of experts is dedicated to providing you with the best possible experience, from the moment you place your order to the moment you consume your drug of choice.
+
+              So if you're looking for a new way to experience life, look no further than myEcstasy. Our products are safe, legal, and guaranteed to provide you with the experience you're looking for. Try us out today and experience the difference for yourself. Stay in Developer Mode.
               </p>
 
               <div className="about__counter">
@@ -32,7 +34,7 @@ const AboutUs = () => {
                       <CountUp start={0} end={25} duration={2} suffix="K" />
                     </span>
 
-                    <p className="counter__title">Completed Projects</p>
+                    <p className="counter__title">Completed Deliveries</p>
                   </div>
 
                   <div className="single__counter">
@@ -40,7 +42,7 @@ const AboutUs = () => {
                       <CountUp start={0} end={12} duration={2} suffix="M" />
                     </span>
 
-                    <p className="counter__title">Patient Around World</p>
+                    <p className="counter__title">Customers Around World</p>
                   </div>
                 </div>
 
@@ -50,7 +52,7 @@ const AboutUs = () => {
                       <CountUp start={0} end={95} duration={2} suffix="M" />
                     </span>
 
-                    <p className="counter__title">Ideas Raised Funds</p>
+                    <p className="counter__title">Raised Funds</p>
                   </div>
 
                   <div className="single__counter">
@@ -58,7 +60,7 @@ const AboutUs = () => {
                       <CountUp start={0} end={5} duration={2} suffix="K" />
                     </span>
 
-                    <p className="counter__title">Categories Served</p>
+                    <p className="counter__title">Countries Served</p>
                   </div>
                 </div>
               </div>
