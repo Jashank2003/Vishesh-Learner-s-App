@@ -4,7 +4,6 @@ import heroImg from "../../assests/images/Pablo_Escobar_Mug.jpg";
 import "./hero-section.css";
 
 // const [SearchInput, setSearchInput] = useState("");
-
 // const Drugs = [
 //   { name: ""}
 // ]

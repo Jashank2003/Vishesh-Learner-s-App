@@ -5,6 +5,7 @@
 .course__img img {
   border-radius: 10px;
   margin-bottom: 20px;
+  width: 3em;
 }
 
 .enroll a {

@@ -12,8 +12,8 @@ const navLinks = [
     url: "/drugs",
   },
   {
-    display: "Forum",
-    url: "/forum",
+    display: "Login",
+    url: "/login",
   },
   {
     display: "Blog",

@@ -57,9 +57,8 @@ const AboutUs = () => {
 
                   <div className="single__counter">
                     <span className="counter">
-                      <CountUp start={0} end={5} duration={2} suffix="K" />
+                      <CountUp start={0} end={150} duration={2} suffix="" />
                     </span>
-
                     <p className="counter__title">Countries Served</p>
                   </div>
                 </div>
