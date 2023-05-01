@@ -36,3 +36,29 @@
 .course__top__left h2 {
   font-weight: 600;
 }
+
+.button{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #17bf9e;
+  border: none;
+  border-radius: 50px;
+  width: 6em;
+  padding: 0.375rem;
+}
+
+.button:hover{
+color: #17bf9e;
+background-color: white;
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.button:not(:hover){
+  color: #ffffff;
+  background-color: #17bf9e;
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+

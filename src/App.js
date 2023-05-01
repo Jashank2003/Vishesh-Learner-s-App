@@ -1,18 +1,18 @@
-import {Routes, Route, useNavigate} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 import Home from "./pages/Home";
 import Login from './components/Login/login';
 
 export default function App() {
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const navigateToLogin = () => {
-    navigate('./login', {replace: true});
-  };
+  // const navigateToLogin = () => {
+  //   navigate('./login', {replace: true});
+  // };
 
-  const navigateHome = () => {
-    navigate('/');
-  };
+  // const navigateHome = () => {
+  //   navigate('/');
+  // };
 
   return (
     <div>

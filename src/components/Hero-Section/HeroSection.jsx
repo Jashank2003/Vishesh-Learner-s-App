@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import heroImg from "../../assests/images/Pablo_Escobar_Mug.jpg";
 import "./hero-section.css";
