@@ -21,6 +21,7 @@ const navLinks = [
   },
 ];
 
+
 const Header = () => {
   const menuRef = useRef();
 

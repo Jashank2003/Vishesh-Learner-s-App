@@ -20,7 +20,8 @@
     "remixicon": "^3.1.1",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4",
-    "web3": "^1.9.0"
+    "web3": "^1.9.0",
+    "xlsx": "^0.18.5"
   },
   "scripts": {
     "start": "react-scripts start",
