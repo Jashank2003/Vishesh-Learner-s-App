@@ -80,7 +80,7 @@ function Login() {
             ) : (
                 // Render login page content if user is not logged in
                 <div>
-                    <button onClick={loginMetaMask}>Login Using Metamask</button>
+                    <button id="btn" className="btn" onClick={loginMetaMask}>Login Using Metamask</button>
                 </div>
             )}
         </div>

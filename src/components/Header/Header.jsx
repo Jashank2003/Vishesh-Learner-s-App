@@ -12,12 +12,12 @@ const navLinks = [
     url: "/drugs",
   },
   {
-    display: "Login",
-    url: "/login",
-  },
-  {
     display: "Blog",
     url: "/review",
+  },
+  {
+    display: "Logout",
+    url: "/logout",
   },
 ];
 
