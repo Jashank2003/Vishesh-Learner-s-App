@@ -14,7 +14,6 @@ function Login() {
         setIsLoggedIn(false);
         navigate('/login');
       };
-
     useEffect(() => {
       // Check if Metamask is installed and connected
       if (typeof window.ethereum !== 'undefined' && window.ethereum.isConnected()) {
@@ -59,7 +58,7 @@ function Login() {
             setIsLoggedIn(true);
             alert("Login Successful");
             navigate('/home');
-            console.log(showAddress);
+            console.log(accounts[0]);
           })
         }
         else{
