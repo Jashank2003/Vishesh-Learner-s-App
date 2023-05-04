@@ -58,7 +58,7 @@ function Login() {
             setIsLoggedIn(true);
             alert("Login Successful");
             navigate('/home');
-            console.log(accounts[0]);
+            console.log(result[0]);
           })
         }
         else{
