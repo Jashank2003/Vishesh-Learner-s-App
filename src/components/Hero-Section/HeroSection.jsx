@@ -2,6 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import heroImg from "../../assests/images/Pablo_Escobar_Mug.jpg";
 import "./hero-section.css";
+import Search from "../../data/search";
+import initialDetails from "../../data/initialData"
+
 
 // const [SearchInput, setSearchInput] = useState("");
 // const Drugs = [
@@ -24,8 +27,7 @@ const HeroSection = () => {
               </p>
             </div>
             <div className="search">
-              <input type="text" placeholder="Search" />
-              <button className="btn">Search</button>
+                <Search details={initialDetails}/>
             </div>
           </Col>
 
