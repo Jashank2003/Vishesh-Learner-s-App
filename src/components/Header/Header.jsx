@@ -9,7 +9,7 @@ const navLinks = [
   },
   {
     display: "Services",
-    url: "/drugs",
+    url: "/aaaaaaa",
   },
   {
     display: "Blog",
