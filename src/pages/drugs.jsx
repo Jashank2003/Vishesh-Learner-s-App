@@ -12,7 +12,7 @@ function DrugList({ drugs }) {
             {drugs.name} - {drugs.description}
           {drugs.mfgDate} - {drugs.expDate}
           </li>
-          </>
+        </>
         ))}
       </ul>
     </div>
