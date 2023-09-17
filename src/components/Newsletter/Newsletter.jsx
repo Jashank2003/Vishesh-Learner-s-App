@@ -8,9 +8,9 @@ const Newsletter = () => {
       <Container className="newsletter">
         <Row>
           <Col lg="12" className="text-center">
-            <h2 className="mb-4">Subscribe Our Newsletter</h2>
+            <h2 className="mb-4">Subscribe for Exclusive Law-Related Resources and Updates</h2>
             <div className="subscribe">
-              <input type="text" placeholder="Email" />
+              <input type="text" placeholder="Enter your Email" />
               <button className="btn">Subscribe</button>
             </div>
           </Col>

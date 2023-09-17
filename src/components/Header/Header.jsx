@@ -8,7 +8,7 @@ const navLinks = [
     url: "/",
   },
   {
-    display: "Drugs",
+    display: "Services",
     url: "/drugs",
   },
   {
@@ -33,7 +33,7 @@ const Header = () => {
         <div className="navigation d-flex align-items-center justify-content-between">
           <div className="logo">
             <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> MyEcstasy
+              <i class="ri-pantone-line"></i> Zephyr
             </h2>
           </div>
 

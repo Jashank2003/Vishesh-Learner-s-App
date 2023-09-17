@@ -1,31 +1,31 @@
+import Footer from "../components/Footer/Footer";
+import Newsletter from "../components/Newsletter/Newsletter";
 import React, { Fragment } from "react";
 import Header from "../components/Header/Header";
-import HeroSection from "../components/Hero-Section/HeroSection";
-import CompanySection from "../components/Company-section/Company";
+// import HeroSection from "../components/Hero-Section/HeroSection";
+// import CompanySection from "../components/Company-section/Company";
 
 const AboutUS = React.lazy(() => import ("../components/About-us/AboutUs"));
-import Courses from "../components/Courses-section/Courses";
-import ChooseUs from "../components/Choose-us/ChooseUs";
-import Features from "../components/Feature-section/Features";
-import FreeCourse from "../components/Free-course-section/FreeCourse";
+// import Courses from "../components/Courses-section/Courses";
+// import ChooseUs from "../components/Choose-us/ChooseUs";
+// import Features from "../components/Feature-section/Features";
+// import FreeCourse from "../components/Free-course-section/FreeCourse";
 
-import Testimonials from "../components/Testimonial/Testimonials";
+// import Testimonials from "../components/Testimonial/Testimonials";
 
-import Newsletter from "../components/Newsletter/Newsletter";
-import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   return (
     <Fragment>
       <Header />
-      <HeroSection />
+      {/* <HeroSection />
       <CompanySection />
       <AboutUs />
       <Courses />
       <ChooseUs />
-      <Features />
+      <Features /> */}
       {/* <FreeCourse /> */}
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Newsletter />
       <Footer />
     </Fragment>
